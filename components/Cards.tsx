@@ -6,12 +6,11 @@ import { Models } from 'react-native-appwrite';
 
 interface Props {
   item: Models.Document;
-  onPress?: () => void;
 }
 
 export const FeaturedCard = ({item: {image, rating, name, address, price}, onPress}: Props) => {
   return (
-    <TouchableOpacity onPress={onPress} className='flex flex-col items-start w-60 h-80 relative'>
+    <TouchableOpacity className='flex flex-col items-start w-60 h-80 relative'>
         <Image source={{uri: image}} className='size-full rounded-2xl'/>
         <Image source={images.cardGradient} className='size-full rounded-2xl absolute bottom-0'/>
 
@@ -35,7 +34,7 @@ export const FeaturedCard = ({item: {image, rating, name, address, price}, onPre
 
 export const Card = ({item: {image, rating, name, address, price}, onPress}: Props) => {
   return (
-    <TouchableOpacity onPress={onPress} className='flex-1 w-full mt-4 px-4 py-4 rounded-lg bg-white shadow-lg shadow-black-100/70 relative'> 
+    <TouchableOpacity  className='flex-1 w-full mt-4 px-4 py-4 rounded-lg bg-white shadow-lg shadow-black-100/70 relative'> 
       <View className='flex flex-row items-center absolute px-2 top-5 right-5 bg-white/90 p-1 rounded-full z-50'>
           <Image source={icons.star} className='size-2.5'/>
           <Text className='text-xs font0rubik-bold text-primary-300 ml-0.5'>{rating}</Text>
