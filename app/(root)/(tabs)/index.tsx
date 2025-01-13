@@ -67,7 +67,7 @@ const handleCardPress = (id: string) => router.push(`/properties/${id}`);
           <View className="flex flex-row items-center">
             <Image source={{uri: user?.avatar}} className="size-12 rounded-full"/>
             <View className="flex flex-col items-start">
-              <Text className="text-xs font-rubik text-black-100 ml-2">Good Morning!</Text>
+              <Text className="text-xs font-rubik text-black-100 ml-2">Good Afternoon!</Text>
               <Text className="text-base font-rubik-medium text-black-300 ml-2">{user?.name}</Text>
             </View>
           </View>
