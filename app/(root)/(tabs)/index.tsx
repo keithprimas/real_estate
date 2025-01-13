@@ -31,7 +31,7 @@ const {
   params: {
     filter: params.filter!,
     query: params.query!,
-    limit: 6,
+    limit: 10,
   },
   skip: true,
 });
@@ -40,7 +40,7 @@ useEffect(() => {
   refetch({
     filter: params.filter!,
     query: params.query!,
-    limit: 6,
+    limit: 10,
   });
 }, [params.filter, params.query]);
 
