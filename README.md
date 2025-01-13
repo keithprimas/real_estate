@@ -416,9 +416,9 @@ export const useAppwrite = <T, P extends Record<string, string | number>>({
 </details>
 
 ## Project Screenshots
-![Auth Page](./assets/images/authpage.PNG)
-![Home Page](./assets/images/homepage.PNG)
-![Explore Page](./assets/images/explorepage.PNG)
-![Profile Page](./assets/images/profilepage.PNG)
+<img src="./assets/images/authpage.PNG" alt="Auth Page" width="300"/>
+<img src="./assets/images/homepage.PNG" alt="Home Page" width="300"/>
+<img src="./assets/images/explorepage.PNG" alt="Explore Page" width="300"/>
+<img src="./assets/images/profilepage.PNG" alt="Profile Page" width="300"/>
 
 
